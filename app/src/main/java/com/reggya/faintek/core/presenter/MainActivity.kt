@@ -19,6 +19,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.ktx.Firebase
+import com.reggya.faintek.BuildConfig.BASE_URL
 import com.reggya.faintek.utils.ApiResponseType.*
 import com.reggya.faintek.core.ui.MainViewModel
 import com.reggya.faintek.utils.UserAdapter
@@ -49,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         val isVerify = user?.isEmailVerified
 
         if (isVerify == true) {
-            val dbRef = FirebaseDatabase.getInstance("https://faintek-510bd-default-rtdb.firebaseio.com/")
+            val dbRef = FirebaseDatabase.getInstance(BASE_URL)
             val database = dbRef.getReference("users")
             database.addListenerForSingleValueEvent(object :
                 ValueEventListener {

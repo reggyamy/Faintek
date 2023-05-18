@@ -14,6 +14,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
 import com.google.firebase.ktx.Firebase
+import com.reggya.faintek.BuildConfig.BASE_URL
 import com.reggya.faintek.utils.ProgressDialog
 import com.reggya.faintek.utils.UserPreference
 import com.reggya.faintek.databinding.ActivityLoginBinding
@@ -112,7 +113,7 @@ class LoginActivity : AppCompatActivity() {
                             Toast.makeText(this, "Link verifikasi terkirim", Toast.LENGTH_SHORT).show()
                         }
                     }
-                    val dbRef = FirebaseDatabase.getInstance("https://faintek-510bd-default-rtdb.firebaseio.com/")
+                    val dbRef = FirebaseDatabase.getInstance(BASE_URL)
                     val database = dbRef.getReference("users")
                     database.addListenerForSingleValueEvent(object :
                         ValueEventListener {

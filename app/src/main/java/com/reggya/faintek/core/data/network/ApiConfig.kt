@@ -2,6 +2,7 @@ package com.reggya.faintek.core.data.network
 
 import android.annotation.SuppressLint
 import com.google.gson.GsonBuilder
+import com.reggya.faintek.BuildConfig.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -25,7 +26,7 @@ object ApiConfig {
         val gson = GsonBuilder().setLenient().create()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://faintek-510bd-default-rtdb.firebaseio.com/")
+            .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
             .client(provideOkHttpClient())
