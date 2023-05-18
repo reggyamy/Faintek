@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687149005995",
+    "project_id": "faintek-510bd",
+    "storage_bucket": "faintek-510bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687149005995:android:ee23cb10b5e9fac985cbee",
+        "android_client_info": {
+          "package_name": "com.reggya.faintek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687149005995-8uu9e2ld04p7j4pi5d9k0h4f8efaors5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLeRp0GuDeuGwnIDokXfbOSbXotSq7tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687149005995-8uu9e2ld04p7j4pi5d9k0h4f8efaors5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
