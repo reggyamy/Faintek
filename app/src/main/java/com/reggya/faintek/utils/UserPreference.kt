@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.utils
 
 import android.content.Context
 

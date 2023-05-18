@@ -1,5 +1,6 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.data.network
 
+import com.reggya.faintek.core.data.model.User
 import io.reactivex.rxjava3.core.Flowable
 import retrofit2.http.*
 

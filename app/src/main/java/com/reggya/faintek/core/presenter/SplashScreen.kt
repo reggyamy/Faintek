@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.presenter
 
 import android.app.Activity
 import android.content.Intent
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.reggya.faintek.utils.UserPreference
 import com.reggya.faintek.databinding.ActivitySplashScreenBinding
 
 class SplashScreen : AppCompatActivity() {

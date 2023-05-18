@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.presenter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

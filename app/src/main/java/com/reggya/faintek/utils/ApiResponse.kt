@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.utils
 
 data class ApiResponse<out T>(val type: ApiResponseType, val data: T?, val message: String?){
     companion object{

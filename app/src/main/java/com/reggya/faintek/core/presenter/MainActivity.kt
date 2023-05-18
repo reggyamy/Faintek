@@ -1,8 +1,6 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.presenter
 
 import android.R
-import android.content.ContentValues
-import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -21,8 +19,13 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.ktx.Firebase
-import com.reggya.faintek.ApiResponseType.*
+import com.reggya.faintek.utils.ApiResponseType.*
+import com.reggya.faintek.core.ui.MainViewModel
+import com.reggya.faintek.utils.UserAdapter
+import com.reggya.faintek.utils.UserPreference
+import com.reggya.faintek.core.ui.ViewModelFactory
 import com.reggya.faintek.databinding.ActivityMainBinding
+import com.reggya.faintek.core.data.model.User
 
 
 class MainActivity : AppCompatActivity() {

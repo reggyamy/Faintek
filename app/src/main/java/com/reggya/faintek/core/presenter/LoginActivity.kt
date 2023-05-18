@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.presenter
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -14,7 +14,10 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
 import com.google.firebase.ktx.Firebase
+import com.reggya.faintek.utils.ProgressDialog
+import com.reggya.faintek.utils.UserPreference
 import com.reggya.faintek.databinding.ActivityLoginBinding
+import com.reggya.faintek.core.data.model.User
 import java.util.regex.Pattern
 
 class LoginActivity : AppCompatActivity() {

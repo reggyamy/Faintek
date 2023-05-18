@@ -1,9 +1,10 @@
-package com.reggya.faintek
+package com.reggya.faintek.utils
 
 import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
+import com.reggya.faintek.R
 
 class ProgressDialog(context: Context) {
 

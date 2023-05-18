@@ -1,8 +1,10 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.ui
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.reggya.faintek.core.di.Injection
+import com.reggya.faintek.core.domain.UseCase
 
 class ViewModelFactory private constructor(
     private val useCase: UseCase

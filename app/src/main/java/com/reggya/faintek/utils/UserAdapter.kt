@@ -1,9 +1,10 @@
-package com.reggya.faintek
+package com.reggya.faintek.utils
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.reggya.faintek.databinding.ItemUserBinding
+import com.reggya.faintek.core.data.model.User
 
 class UserAdapter: RecyclerView.Adapter<UserAdapter.ViewHolder>() {
 

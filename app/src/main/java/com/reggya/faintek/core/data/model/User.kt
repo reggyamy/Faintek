@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.data.model
 
 import com.google.gson.annotations.SerializedName
 

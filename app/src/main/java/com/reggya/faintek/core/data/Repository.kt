@@ -1,5 +1,9 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.data
 
+import com.reggya.faintek.core.domain.IRepository
+import com.reggya.faintek.core.data.model.User
+import com.reggya.faintek.core.data.remote.RemoteDataSource
+import com.reggya.faintek.utils.ApiResponse
 import io.reactivex.rxjava3.core.Flowable
 
 class Repository(

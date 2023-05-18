@@ -1,4 +1,4 @@
-package com.reggya.faintek
+package com.reggya.faintek.core.data.network
 
 import android.annotation.SuppressLint
 import com.google.gson.GsonBuilder
